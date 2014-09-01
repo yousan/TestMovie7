@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF">
+
+ <LinearLayout
+     android:id="@+id/LinearLayout01"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:background="#FFFFFF"
+     android:gravity="right" >
+
+   <Button
+       android:id="@+id/btn_save"
+       android:layout_width="100dp"
+       android:layout_height="40dp"
+       android:layout_margin="5dp"
+       android:background="#E1E1E1"
+       android:onClick="onClick_save"
+       android:text="Save"
+       android:textColor="#33CCFF"
+       android:textSize="20sp" />
+ 
+</LinearLayout>
+
+ <TextView
+     android:id="@+id/textView1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:focusable="true"
+     android:focusableInTouchMode="true"
+     android:padding="10dp"
+     android:text="mp4 folder:"
+     android:textSize="18sp" >
+
+     <requestFocus />
+ </TextView>
+
+ <EditText
+     android:id="@+id/txt_fnm"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="5px"
+     android:gravity="top"
+     android:hint="file name"
+     android:text="/sdcard/mv1/" >
+ </EditText>
+ 
+</LinearLayout>
