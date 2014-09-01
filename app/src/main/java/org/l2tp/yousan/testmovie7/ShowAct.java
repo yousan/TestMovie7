@@ -58,7 +58,7 @@ public class ShowAct extends Activity {
     		e.printStackTrace();
     	}
 	}
-	
+	 // hello
     @Override
     protected void onPause() {
         super.onPause();
